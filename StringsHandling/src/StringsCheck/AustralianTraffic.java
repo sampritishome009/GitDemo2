@@ -2,7 +2,7 @@ package StringsCheck;
 
 
 
-public class AustralianTraffic implements CentralTraffic,continentalTraffic {
+public class AustralianTraffic implements CentralTraffic ,continentalTraffic {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -16,6 +16,7 @@ public class AustralianTraffic implements CentralTraffic,continentalTraffic {
 		continentalTraffic cunt = new AustralianTraffic();
 		cunt.TrainSymbol();
 		
+		
 		a.redStop();
 		a.flashingYellow();
 		a.greenGo();
@@ -26,27 +27,29 @@ public class AustralianTraffic implements CentralTraffic,continentalTraffic {
     	System.out.println("walking");
     	
     }
-	@Override
+	//@Override
 	public void greenGo() {
 		// TODO Auto-generated method stub
 		System.out.println("greenGo implementation");
 	}
 
-	@Override
+	//@Override
 	public void redStop() {
 		// TODO Auto-generated method stub
 		System.out.println("Red stop implementation");
 		}
 
-	@Override
+	//@Override
 	public void flashingYellow() {
 		// TODO Auto-generated method stub
 		System.out.println("Flashing Yellow implementation");
+		System.out.println("paint it black");
 	}
 	@Override
 	public void TrainSymbol() {
 		// TODO Auto-generated method stub
          System.out.println("off the train goes");	
 	}
+	
 	
 }
