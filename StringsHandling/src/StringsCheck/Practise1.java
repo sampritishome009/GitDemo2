@@ -9,7 +9,10 @@ public class Practise1 {
 		String str1 = "payments $100 paid";
 		System.out.println(str1.indexOf("$"));
 		System.out.println(str1.substring(8));
+		System.out.println("testing git hub 1");
 		
+		System.out.println("testing git hub 2");
+		System.out.println("testing git hub 3");
 	}
 
 }
