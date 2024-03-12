@@ -19,6 +19,8 @@ public class reversedemo {
 	}
       // System.out.println(t);
        
+       System.out.println(s.length());
+       
        if(s==t)  
        {
     	   System.out.println("Strings are matching");

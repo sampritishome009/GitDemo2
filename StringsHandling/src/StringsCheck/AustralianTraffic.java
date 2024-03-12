@@ -10,6 +10,7 @@ public class AustralianTraffic implements CentralTraffic,continentalTraffic {
 		CentralTraffic a = new AustralianTraffic();
 		AustralianTraffic c = new AustralianTraffic();
 		c.walkonSymbol();
+	
 		
 		
 		continentalTraffic cunt = new AustralianTraffic();
@@ -18,6 +19,7 @@ public class AustralianTraffic implements CentralTraffic,continentalTraffic {
 		a.redStop();
 		a.flashingYellow();
 		a.greenGo();
+	
 		
 	}
     public void walkonSymbol() {
@@ -44,7 +46,7 @@ public class AustralianTraffic implements CentralTraffic,continentalTraffic {
 	@Override
 	public void TrainSymbol() {
 		// TODO Auto-generated method stub
-		
+         System.out.println("off the train goes");	
 	}
-
+	
 }
