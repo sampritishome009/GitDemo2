@@ -5,6 +5,7 @@ public class reversedemo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
        String s = "madam";
+       String h ="hannah";
        String t= "";
        
        for(int i =s.length()-1;i>=0;i--) {
@@ -20,6 +21,7 @@ public class reversedemo {
       // System.out.println(t);
        
        System.out.println(s.length());
+       System.out.println(h.length());
        
        if(s==t)  
        {

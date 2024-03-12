@@ -16,6 +16,10 @@ public class Practise1 {
 		
 		System.out.println("Hello this is American guy testing 1");
 		System.out.println("Hello this is Guatemalan guy testing 2");
+		System.out.println("Hello this is Cambodian guy testing 1");
+		System.out.println("Hello this is Nicaraguan guy testing 2");
+		System.out.println("Hello this is Australian guy testing 1");
+		System.out.println("Hello this is Wogguy testing 2");
 	}
 
 }
